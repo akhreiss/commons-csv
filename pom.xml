@@ -437,7 +437,10 @@ CSV files of various types.
           <version>3.4</version>
         </dependency>
       </dependencies>
-           
+      <properties>
+        <skipTests>true</skipTests>
+        <benchmark>org.apache</benchmark>
+      </properties>           
       <build>
         <plugins>
           <!-- Enable the compilation of the benchmarks -->
